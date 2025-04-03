@@ -62,13 +62,13 @@ public class NutritionFacts {
     }
 
     public static void main(String[] args) {
-        var nutrifatcs= NutritionFacts.builder(2,2)
+        var nutritionFacts= NutritionFacts.builder(2,2)
                 .calories(200)
                 .fat(80)
                 .sodium(90)
                 .carbohydrate(10)
                 .build();
-        System.out.println(nutrifatcs);
+        System.out.println(nutritionFacts);
     }
 
 
